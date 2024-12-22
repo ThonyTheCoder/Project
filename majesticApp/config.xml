@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.granstonGroup.majesticApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Majestic Tech Solutions</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <platform name="android">
+    <icon src="\www\img\Majestic-tech-rounded.png" width="36" height="36" />
+    <icon src="\www\img\Majestic-tech-rounded.png" width="48" height="48" />
+    <icon src="\www\img\Majestic-tech-rounded.png" width="72" height="72" />
+    <icon src="\www\img\Majestic-tech-rounded.png" width="96" height="96" />
+    </platform>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

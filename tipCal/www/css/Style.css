@@ -1,0 +1,49 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 10px;
+    width: 50vh;
+}
+
+.secondary_Container {
+    padding-bottom: 25px;
+    display: inline-block;
+    background-color: white;
+    /* padding: 20px;  */
+    border-radius: 10px; 
+    box-shadow: 0px 4px 12px rgba(5, 4, 3, 0.8); 
+    text-align: center; 
+}
+
+.span-Title {
+    color: white;
+    background-color: #04080F;
+    width:400px;
+    padding: 10px 40px;
+    /* border-radius: 10px;  */
+    display: inline-block;
+    margin-bottom: 20px; 
+}
+
+.content{
+    display: inline-block;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 8px; 
+    width: 100%; 
+    max-width: 300px;
+}

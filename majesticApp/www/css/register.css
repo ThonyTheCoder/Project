@@ -1,0 +1,207 @@
+/* Global Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFF2F6;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    color: black;
+    height: auto;
+    width: 40vw;
+    padding: 20px 35px 50px 35px;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    backdrop-filter: blur(10px);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form h1 {
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 30px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+input {
+    border: none;
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(104, 102, 102, 0.09);
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0 10px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    margin-top: 50px;
+    width: 100%;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #bdc3c7;
+}
+
+form p {
+    font-size: 1.2rem;
+}
+
+form p a {
+    color: dodgerblue;
+    text-decoration: none;
+    transition: font-size 1.4s ease-in-out;
+}
+
+form p a:hover {
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+/* Popup Container (for future use) */
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+
+.popup-content {
+    position: relative;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    animation: slideDown 0.5s ease;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    .background {
+        width: 300px;
+        height: 400px;
+    }
+
+    .background .shape:first-child {
+        left: -150px;
+        top: 100px;
+    }
+
+    .background .shape:last-child {
+        right: -100px;
+        bottom: -40px;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+
+    input[type="reset"],
+    input[type="submit"] {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .buttonContainer {
+        flex-direction: column;
+    }
+
+    input[type="reset"],
+    input[type="submit"] {
+        margin-top: 20px;
+    }
+
+    form p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    form h1 {
+        font-size: 1.5rem;
+    }
+
+    input {
+        font-size: 0.9rem;
+    }
+
+    input[type="reset"],
+    input[type="submit"] {
+        font-size: 16px;
+    }
+
+    form p {
+        font-size: 1rem;
+    }
+}

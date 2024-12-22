@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(130, 174, 177, 0.29);
+}
+header h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 10px;
+
+
+    text-shadow: 0 2px 10px #000000,
+                 0 4px 5px #69e5e5;
+
+}
+
+
+.Instructions {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+
+.orderedList {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.container p {
+    font-size: 1.2rem;
+    width: 90%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.orderedList{
+    margin: 0 0 20px 40px;
+}
+
+.container p span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+[type="text"] {
+    width: 80vw;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+[type="button"] {
+    position: relative;
+    right: -40px;
+    width: 40%;
+    max-width: 200px;
+    padding: 10px 20px;
+    margin: 5px auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+[type="button"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px black;
+    background-color: #0056b3;
+}
+
+
+

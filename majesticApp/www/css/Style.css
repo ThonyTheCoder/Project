@@ -1,0 +1,485 @@
+/* Roboto, Montserrat,Cormorant Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    background-color: #eff2f6;
+}
+
+
+/* The Navigation Layout starts Here*/
+.Header {
+    font-family: "Cormorant", monospace;
+    display: flex;
+    width: 100%;
+    max-width: 1163px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}   
+.Logo {
+    width: 20%;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+    .LOGO-img {
+    width: 20%;
+    border-radius: 70px;
+    }
+
+    .navbar ul{
+        display: inline-block;
+    }
+
+    .navbar li{
+        display: inline-block;
+        font-size: 16px;
+        color: #666;
+        font-weight: 700;
+        margin-left: 30px;
+        position: relative;
+    }
+
+    .navbar li a{
+        text-decoration: none;
+        color: #000000;
+    }
+    /* The Navigation Layout Ends Here*/
+    
+
+/* Main Styling - Index-Main Page */
+
+.homePageContainer{
+    /* background: radial-gradient(#DEDEE3,#2c3e50); */
+}
+
+.homePageHeadings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;  
+    /* background: linear-gradient(to right, #2c3e5083, #bdc3c7);  */
+    /* background-color: #; */
+    /* background: radial-gradient(#DEDEE3,#2c3e50); */
+    /* box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.1); */
+}
+
+.homePageHeadings h1{
+    font-size: 4rem;
+    font-family: "Cormorant";
+    text-shadow: 2px 1px 5px gray,
+    4px 2px 10px rgba(41, 41, 174, 0.772),
+    -8px -7px 20px #2a4494,
+    -4px -5px 18px #24366b;
+
+}
+
+.homePageHeadings p{
+    font-size: 1rem;
+    font-family: "Cormorant", sans-serif;
+
+}
+
+#Welcome-Sub-Text {
+    padding: 2%;
+    font-family: roboto, monospace;
+    font-weight: 300;
+    font-size: larger;
+}
+
+/* Recommendation Pages  layout Starts Here */
+.homePageRecommendation{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.homePageRecommendation h2{
+    font-size: 3rem;
+    font-family: "Cormorant";
+    text-shadow: 2px 1px 5px gray,
+    4px 2px 10px rgba(41, 41, 174, 0.772),
+    -8px -7px 20px #2a4494,
+    -4px -5px 18px #24366b;
+}
+
+.homePageRecommendation p{
+    text-align: center;
+    font-family: "Cormorant";
+    font-size: 1rem;
+}
+
+
+
+#Content-Pages {
+    display: flex;
+    flex-direction: row;
+}
+
+#Content-Pages a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#Content-Pages p{
+    font-family: "Cormorant", monospace;
+    font-size: 1.5rem;
+}
+
+.homePageRecommendation img{
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 3px 7px rgb(42, 35, 68); /* Box shadow */
+    transition: transform 0.4s;
+
+}
+
+.homePageRecommendation img:hover {
+        transform: translateY(-10px);   
+}
+
+
+/* Content Pages Section layout Ends Here */
+/* The Home Page Main Layout Ends Here*/
+
+
+
+/* Laptop Pages Styling Starts Here*/
+main{
+    width: 95vw;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+    .hero{
+        width: 60%;
+        position: relative;
+        left: 20%;
+        margin: 20px 30px;
+        /* background: linear-gradient(to right, #2c3e507a, #bdc3c768);  */
+
+    }
+
+    .heroflex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+        margin-bottom: 30px;
+        text-shadow: 2px 1px 5px blue,
+                     4px 2px 10px rgba(41, 41, 174, 0.772),
+                     -8px -7px 20px #2a4494,
+                     -4px -5px 18px #24366b;
+    }
+
+    .hero p {
+        padding: 10px;
+        font-size:1rem;
+    }
+    
+.display-information{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+    width: 80%;
+    float: left;
+    
+    position: relative;
+    left: 12%;
+
+    border: solid 0.1px;
+    box-shadow: 10px 10px 20px rgba(30, 40, 50, 0.9);
+
+    margin-bottom: 40px;
+}
+
+.display-information h2{
+    font-size: 2rem;
+    font-family: "Roboto" serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding-bottom: 10px;
+    border-bottom:0.5px solid black;
+}
+
+.display-information span img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.laptops {
+    width: 100%;
+    /* width: 250px; */
+    /* display: inline-block; */
+} 
+
+.laptops img{
+    padding: 20px 10px;
+    float: left;
+    display: inline;
+    width: 12.5rem;
+    max-width: 500px;
+    /* border: 1px solid red; */
+}
+
+.laptop-prices {
+    float: right;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 0;
+    height: 0 auto;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.Specifications {
+    display: inline-block;
+    margin: 0 20%;  
+    /* border: 1px solid red; */
+}
+
+.Specifications h3{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+
+
+/* Laptop Pages Styling Ends Here*/
+
+
+/* The About Us Main Layout starts Here*/
+.About-Us-Main-Section {
+    margin: 0%;
+}
+
+/* cust the header */
+.about-h2 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Adding some letter spacing */
+    margin-bottom: 20px; /* Increasing margin margin */
+    position: relative; /* Adding position  */
+}
+
+
+
+/* Styling the main content */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Styling company info */
+.company-info {
+    background: linear-gradient(to right, #f2f2f2, #e6e6e6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    flex: 0 1 calc(50% - 40px);
+    font-family: 'Roboto', sans-serif;
+    position: relative; /* Adding position */
+    overflow: hidden; /* To hide overflow  */
+}
+
+/* Company info title */
+.company-info h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* Company info content */
+.company-info p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Adding a hover effect */
+.company-info:hover {
+    transform: translateY(-15px);
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .company-info {
+        flex: 0 1 calc(100% - 40px);
+    }
+}
+
+
+/* Form css */
+
+/* Contact Form Styles */
+.contact-form-section {
+    background: linear-gradient(to right, #f2f2f2, #e6e6e6);
+    box-shadow: 0 0 20px rgba(119, 119, 119, 0.1);
+    border-radius: 8px;
+    padding: 50px 0;
+    text-align: center;
+    
+    
+    
+}
+
+/* gray box */
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.contact-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* input */
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.contact-form-container textarea {
+    height: 150px;
+}
+
+.contact-form-container button {
+    background-color: #1eff00;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+
+.contact-form-container button:hover {
+    background-color: #000;
+}
+/* About us Main Layout ends here */
+
+/* Log-in Main Content Styling Starts Here */
+
+/*Using FlexBox to Center the Login Container*/
+.loginContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginForm{
+    height: 510px;
+    width: 400px;
+    padding: 50px 35px;
+    background-color: rgba(255,255,255,0.13);
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    backdrop-filter: blur(10px);
+}
+
+#loginForm *{
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+#loginForm h1{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#loginForm label{
+    display: block;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#txtbxUsername,#txtbxPassword{
+    border: none;
+}
+
+#loginForm [type="text"], #loginForm [type="password"]{
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(104, 102, 102, 0.09);
+  border-radius: 4px;
+  padding: 0 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.btn_Login {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_Login:hover {
+    background:#bdc3c7;
+    color: #ffffff;
+}
+
+#loginForm p{
+    font-size: 1.2rem;
+}
+
+#loginForm p a{
+    transition: font-size 1.4s ease-in-out;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+#loginForm p a:hover{
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+/* Log-in Styling Ends Here */

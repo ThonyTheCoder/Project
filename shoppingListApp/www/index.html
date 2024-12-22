@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello, world!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+<header>
+    <h1>Shopping  List App</h1>
+</header>
+<main class="container">
+    <p><span class="Instructions">Instructions: </span>To add an item to the list: type the item's name in the field provided, then press the <span>'Add Item to List'</span> button. To remove the most recently added item: press the <span>'Remove Item'</span>button.</p>
+    <div class="orderedList">
+        <ol id="itemList">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <form>
+        <input placeholder="Type the item to be purchased" type="text"/> <br>
+        <input type="button" value="Add Item to List" onclick="addItem()" />
+        <input type="button" value="Remove Item" onclick="removeItem()" />
+    </form>
+</main>
+<script src="js/index.js"></script>
+</body>
+</html>

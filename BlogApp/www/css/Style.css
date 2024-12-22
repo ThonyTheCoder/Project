@@ -1,0 +1,153 @@
+/* Bitter, Mukta Fonts, Space Mono */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    font-family: "Mukta", sans-serif;
+    font-size: 16px; /* Default font size  */
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+.hero{
+    background-color: #863ae8;
+    height: 100vh;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1, .hero p{
+    width: 75%;
+    max-width: 900px;
+    margin: 16px 0;
+}
+
+.hero p{
+    font-size: 15px;
+}
+
+.hero hr{
+    width:50%;
+    margin:32px 0;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Bitter", sans-serif;
+    font-weight: 500;
+
+}
+
+h1{
+    margin: 0;
+    font-size:80px;
+    font-weight:400;
+    letter-spacing: -1.5px;
+}
+
+h2{
+    font-size: 50px;
+    letter-spacing: -0.5px;
+}
+
+.content h3{
+    font-size: 30px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+h4{
+    font-size: 30px;
+    letter-spacing: 0.25px;
+}
+
+h5{
+    font-size: 24px;
+    letter-spacing: 0.25px;
+}
+
+h6{
+    font-size:24px;
+    letter-spacing: 0.75px;
+}
+
+code{
+    color: #e94100;
+    font-family: "Space Mono";
+    font-weight: bold;
+    background-color: rgba(188, 162, 46, 0.165);
+}
+
+.content{
+    max-width:900px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.info{
+    font-family: "Bitter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.info span{
+    color:#e94100;
+    letter-spacing: 1.5px;
+}
+
+.headline{
+    text-transform:uppercase;
+    font-weight:500;
+    font-size:18px;
+    letter-spacing: 0px;
+    margin: 40px 0;
+}
+
+.quote{
+    font-style:italic;
+    font-size:14px;
+    border-left:2px solid #e94100;
+    padding-left: 16px;
+}
+
+.quote cite{
+    display: block;
+    font-weight:bold;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #863ae8;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding: 28px 0 ;
+}
+
+footer ul li{
+    display: inline;
+    padding: 0 16px;
+}
+
+footer ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+footer ul li a:hover{
+    text-decoration:underline;
+}
